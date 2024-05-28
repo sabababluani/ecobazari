@@ -1,0 +1,136 @@
+.container {
+    max-width: 1320px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 24px;
+    gap: 24px;
+}
+
+.bigContainer {
+    background-image: url("../../../public/Bannar\ Big.png");
+    width: 872px;
+    height: 600px;
+}
+
+.littleTop {
+    background-image: url("../../../public/BG.png");
+    width: 423px;
+    height: 288px;
+}
+
+.littleBottom {
+    background-image: url("../../../public/Banner.png");
+    width: 423px;
+    height: 288px;
+}
+
+.littleContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.bigContainerInner {
+    width: 556px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 155px;
+
+}
+
+.bigContainerInner h1 {
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 57.6px;
+}
+
+.sales {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.sales p {
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.saleOff {
+    width: 118px;
+    height: 38px;
+    padding: 6px 12px;
+    gap: 10px;
+    background-color: #FF8A00;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.information {
+    display: flex;
+    gap: 12px;
+}
+
+.litWhite {
+    color: #ffffff80;
+}
+
+.salesContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.bigContainerInner button {
+    width: 191px;
+    height: 51px;
+    border-radius: 53px;
+    color: #00B207;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.summerSale {
+    font-size: 14px;
+    font-weight: 500;
+    color: #1A1A1A;
+}
+
+.littleTopOff {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.fruit {
+    color: #666666;
+    font-weight: 500;
+}
+
+.shopNow {
+    color: #00B207;
+}
+
+.littleTopAdjust {
+    width: 176px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 32px;
+    margin-left: 32px;
+}

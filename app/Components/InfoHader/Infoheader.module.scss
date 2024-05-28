@@ -1,0 +1,35 @@
+@import "../../colors.scss";
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #666666;
+    font-size: 12px;
+}
+
+.containerInfo p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 22px;
+    color: #666666;
+    font-size: 12px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 1320px;
+    height: 42px;
+}
+
+.main {
+    border-bottom: 1px solid $primarycolor;
+    width: 100%;
+}

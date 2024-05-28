@@ -1,0 +1,38 @@
+.wrapper {
+    width: 100%;
+    background-color: #333;
+    margin-top: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+
+.containerUl {
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.containerUl li {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1320px;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
