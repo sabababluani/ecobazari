@@ -1,0 +1,52 @@
+.container {
+    height: 327px;
+    width: 264px;
+    border: 1px solid #e6e6e6;
+    color: #4D4D4D;   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 16px;
+}
+.paragraphs {
+    padding-left: 12px;
+    display: flex;
+    flex-direction: column;
+    gap:7px ;
+}
+
+.redButton {
+    width: 80px;
+    height: 27px;
+    background-color: #EA4B48;
+    color: #fff;
+    padding: 3px 4px ;
+    border-radius: 4px;
+    position: absolute;
+    left: 16px;
+    top: 16px;
+}
+
+.inactive {
+    display: non;
+}
+
+.prices {
+    display: flex;
+    gap: 2px;
+    align-items: center;
+}
+
+.mainPrice {
+    color: #1A1A1A;
+    font-weight: 500;
+}
+
+.linethrough {
+    text-decoration: line-through;
+    color:#999999 ;
+}

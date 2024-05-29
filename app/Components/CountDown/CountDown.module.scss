@@ -1,0 +1,158 @@
+.wrapper {
+    background-image: url(../../../public/background.png);
+    width: 424px;
+    height: 536px;
+    color: #fff;
+}
+
+.wrapper2 {
+    background-image: url(../../../public/background2.png);
+    width: 424px;
+    height: 536px;
+    color: #fff;
+}
+
+.wrapper3 {
+    background-image: url(../../../public/background3.png);
+    width: 424px;
+    height: 536px;
+    color: #fff;
+}
+
+.timeContainer {
+    display: flex;
+    gap: 29px;
+    font-size: 12px;
+    justify-content: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.wrapper h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.time>p {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.wrapper button {
+    width: 191px;
+    height: 51px;
+    border-radius: 53px;
+    color: #00B207;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.wrapper2 button {
+    width: 191px;
+    height: 51px;
+    border-radius: 53px;
+    color: #00B207;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+ 
+}
+
+.wrapper3 button {
+    width: 191px;
+    height: 51px;
+    border-radius: 53px;
+    color: #00B207;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.container {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 35px;
+}
+
+.container2 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+    padding-top:35px ;
+}
+
+.container2 h2 {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.containerDollar p{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.containerDollarSpan {
+    color: rgba(255, 138, 0, 1);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-top: 35px;
+    color: #1A1A1A;
+    align-items: center;
+}
+
+.container3  h2{
+    font-size: 40px;
+    font-weight:600;
+}
+
+.containerOff p{
+    font-size: 18px;
+}
+.containerOff p span {
+    font-weight: 600;
+    font-size: 18px;
+    color:#FCC900 ;
+    background-color: #1A1A1A;
+    padding: 6px 12px;
+    border-radius: 5px;
+}
+.container3 > p {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.mainWrapper {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+}

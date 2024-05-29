@@ -121,10 +121,6 @@
     font-weight: 500;
 }
 
-.shopNow {
-    color: #00B207;
-}
-
 .littleTopAdjust {
     width: 176px;
     height: 136px;
@@ -133,4 +129,28 @@
     gap: 12px;
     margin-top: 32px;
     margin-left: 32px;
+}
+
+.littleBottom {
+    color: #fff;
+    text-align: center;
+}
+
+.littleBottom h1 {
+    font-size: 32px;
+}
+
+
+.littleBottomAdjust {
+    width: 324px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-left: 50px;
+    margin-top: 60px;
+}
+
+.greenArrowUp {
+    display: flex;
+    justify-content: left;
 }

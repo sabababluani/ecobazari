@@ -1,0 +1,10 @@
+.wrapper {
+    width: 1320px;
+    height: 654px;
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}

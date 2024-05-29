@@ -1,4 +1,6 @@
+import Arrow from './Arrow/Arrow'
 import styles from './Banners.module.scss'
+
 
 export default () => {
     return (
@@ -25,7 +27,7 @@ export default () => {
                             </div>
                         </div>
                     </div>
-                    <button>Shop now <img src="/right.png" /></button>
+                    <button><Arrow title='Shop now' /></button>
                 </div>
             </div>
             <div className={styles.littleContainer}>
@@ -34,11 +36,17 @@ export default () => {
                         <p><span className={styles.summerSale}>SUMMER SALE</span></p>
                         <p><span className={styles.littleTopOff}>75% OFF</span></p>
                         <p><span className={styles.fruit}>Only Fruit & Vegetable</span></p>
-                        <p><span className={styles.shopNow}>Shop Now</span><img src="right.png" /></p>
+                        <div className={styles.greenArrowUp}>
+                            <Arrow title='Shop now' />
+                        </div>
                     </div>
                 </div>
                 <div className={styles.littleBottom}>
-
+                    <div className={styles.littleBottomAdjust}>
+                        <p>BEST DEAL</p>
+                        <h2>Special Products Deal of the Month</h2>
+                        <Arrow title='Shop now' />
+                    </div>
                 </div>
             </div>
         </div>

@@ -10,8 +10,8 @@ export default () => {
                         <li>Shop <img src="/Vector.png" /></li>
                         <li>Pages <img src="/Vector.png" /></li>
                         <li>Blog <img src="/Vector.png" /></li>
-                        <li>About Us <img src="/Vector.png" /></li>
-                        <li>Contact Us <img src="/Vector.png" /></li>
+                        <li>About Us </li>
+                        <li>Contact Us </li>
                     </ul>
                 </div>
                 <div className={styles.contact}>

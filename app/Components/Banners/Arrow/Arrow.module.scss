@@ -1,0 +1,14 @@
+.greenArrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+.greenArrow img {
+    position: relative;
+    top: 2px;
+}
+.shopNow {
+    color: #00B207;
+    cursor: pointer;
+}

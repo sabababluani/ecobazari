@@ -1,0 +1,36 @@
+.wrapper {
+    width: 1320px;
+    height: 128px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0 8px 40px 0 rgba(0, 38, 3, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+    border-radius: 8px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.container {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.paragraph p{
+    font-weight: 600;
+    color: #1A1A1A;
+}
+
+.paragraph {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.paragraph span {
+    color:#999999 ;
+    font-size: 14px;
+}

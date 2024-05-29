@@ -1,0 +1,12 @@
+.wrapper {
+    width: 1325px;
+    height: 424px;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 32px;
+}
