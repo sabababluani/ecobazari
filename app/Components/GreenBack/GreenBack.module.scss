@@ -1,0 +1,55 @@
+.container {
+    background-image: url(../../../public/greenImage.png);
+    max-width: 1320px;
+    height: 358px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 60px;
+    position: relative;
+    color: #fff;
+}
+
+.container p {
+    font-weight: 500;
+    color: #fff;
+}
+
+.container h3 {
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.container h3 span {
+    color: #FF8A00;
+}
+
+.container>span {
+    opacity: 0.7;
+    color: white;
+}
+
+.container button {
+    display: inline-flex;
+    padding: 16px 40px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    background-color: #00B207;
+    border: none;
+    border-radius: 43px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 441px;
+    align-items: start;
+    gap: 28px;
+    position: absolute;
+    left: 828px;
+    top: 60px;
+}

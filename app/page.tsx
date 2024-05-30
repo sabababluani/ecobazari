@@ -9,6 +9,9 @@ import FruitBox from "./Components/FruitBox/FruitBox";
 import FruitPrices from "./Components/FruitPrices/FruitPrices";
 import CountDown from "./Components/CountDown/CountDown";
 import Hotdeals from "./Components/Hotdeals/Hotdeals";
+import GreenBack from "./Components/GreenBack/GreenBack";
+import Featuredproduct from "./Components/FeaturedProduct/Featuredproduct";
+import LatestNews from "./Components/LatestNews/LatesNews";
 
 
 export default function Home() {
@@ -23,6 +26,10 @@ export default function Home() {
       <FruitPrices />
       <CountDown />
       <Hotdeals />
+      <GreenBack/>
+      <Popular title="Featured Products"/>
+      <Featuredproduct/>
+      <LatestNews/>
     </>
   );
 }

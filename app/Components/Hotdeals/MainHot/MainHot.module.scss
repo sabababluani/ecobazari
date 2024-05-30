@@ -1,12 +1,185 @@
 .wrapper {
     height: 918px;
     width: 1320px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 32px;
 }
 
 .container {
     width: 528px;
     height: 654px;
     border: 1px solid #E6E6E6;
-    display: flex;    
+    display: flex;
     flex-direction: column;
+    position: relative;
+}
+
+.hotMassDetails {
+    width: 559px;
+    height: 656px;
+    background-color: #fff;
+    border: 1px solid #e6e6e6;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hotButton button {
+    width: 370px;
+    border-radius: 43px;
+    height: 44px;
+    background-color: #00B207;
+    border: 1px solid #00B207;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    color: #fff;
+}
+
+.hotButton {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: absolute;
+    bottom: 200px;
+}
+
+.priceSect {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.priceSectSpan {
+    text-decoration: line-through;
+    color: #999;
+}
+
+.priceSect p {
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.priceSect span {
+    font-size: 18px;
+    color: #00B207;
+}
+
+.rating {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    font-size: 12px;
+    color: #666666;
+}
+
+.rating span {
+    color: #808080;
+    font-size: 12px;
+    position: relative;
+    top: 2px;
+    left: 2px;
+}
+
+.rating img {
+    width: 18px;
+    height: 18px;
+}
+
+.timerWrapper {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    gap: 5px;
+}
+
+.grayFont {
+    color: #666666;
+}
+
+.grayFont+span {
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.daysSection {
+    font-size: 10px;
+    color: #666666;
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    justify-content: center;
+}
+
+.salesbuttons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: absolute;
+    left: 20px;
+}
+
+.redsale {
+    width: 80px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #EA4B48;
+    position: relative;
+    top: 20px;
+    border-radius: 4px;
+}
+
+.bestSale {
+    width: 80px;
+    height: 27px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background-color: #2388ff;
+    position: relative;
+    top: 20px;
+    border-radius: 4px;
+}
+
+.containerAdjust {
+    display: flex;
+    flex-direction: column;
+}
+
+.containerFlex {
+    display: flex;
+}
+
+.containerAdjustWrapper {
+    display: flex;
+
+}
+
+.containerWrapper {
+    display: flex;
+
+}
+
+.lowwerWrapper {
+    display: flex;
 }

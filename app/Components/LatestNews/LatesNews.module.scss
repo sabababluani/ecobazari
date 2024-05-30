@@ -1,0 +1,104 @@
+
+.latesnews__container {
+    width: 424px;
+    height: 494px;
+    border: 1px solid #e6e6e6;
+}
+
+.latesnews__container_inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    bottom: 40px;
+    padding-left: 10px;
+}
+
+.latesnews__container+img {
+    width: 424px;
+    height: 324px;
+}
+
+.latesnews__container_date {
+    width: 58px;
+    height: 58px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    bottom: 80px;
+    left: 20px;
+}
+
+.latesnews__container_bg {
+    background-image: url(../../../public/oranges.png);
+    width: 424px;
+    height: 324px;
+}
+
+.latesnews__container_datenumber {
+    font-size: 20px;
+    font-weight: 500;
+    color: #000;
+}
+
+.latesnews__container_datenumber+span {
+    color: #666666;
+}
+
+.latesnews__container_infoadjust {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.latesnews__container_info {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #666666;
+    justify-content: center;
+}
+
+.latesnews__container_text {
+    color: #2C742F;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+
+.latesnews__container_anchore a {
+    color: #00B207;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+}
+
+.latestnews {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 23px;
+}
+
+.header h3 {
+    text-align: center;
+    margin: 40px;
+    font-size: 32px;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
